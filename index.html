@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form.css">
+    <title>Currency Exchange</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Currency Exchange</h1>
+
+        <form action="" class="form">
+
+
+            <div class="row">
+
+                <div class="col-75">
+                    <input type="number" name="currency_huf" id="currency_huf" min="1">
+                </div>
+
+                <div class="col-25">
+                    <label for="currency_huf">HUF</label>
+                </div>
+            </div>
+
+            <div class="row">
+                
+                <div class="input-group">
+                    <input type="number" name="currency_other" id="currency_other" min="1">
+                    <select name="currency_select" id="currency_select"></select>
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
